@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.footer{
+    background-color: black;
+    width: 100%;
+}
+
+.logofooter{
+    padding-top: 30px;
+    width: 10%;
+}
+
+.info{
+    color: white;
+}
+
+.contactosfooter{
+    padding-top: 40px;
+    font-size: .9rem;
+}
+
+.marginsfooter{
+    margin: 0 2rem;
+}
+
+.legalesfooter{
+    font-size: .9rem;
+    padding: 2rem 0;
+}
+
+.listo{
+    border-bottom: 2px solid #4D4D4D;
+}
+
+.copyright{
+    padding: 2rem 0;
+    color: #545454;
+}
+
+.contenido{
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    box-shadow: 0 0 20px gray;
+    height: 400px;
+    width: 50%!important;
+}
+
+.opciones{
+    margin: 3rem;
+}
+
+.titulo{
+    padding-top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #3D3D3C;
+}
+
+.inputform{
+    color: #3D3D3C;
+    font-size: 20px;
+}
+
+.input{
+    width: 40%;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+input::placeholder{
+    text-align: center;
+}

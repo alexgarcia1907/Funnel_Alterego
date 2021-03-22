@@ -18,4 +18,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::post('/create','App\Http\Controllers\PetitionController@store');
+Route::post('/paso2','App\Http\Controllers\PetitionController@store');

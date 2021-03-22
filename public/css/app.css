@@ -40,12 +40,18 @@
     color: #545454;
 }
 
-.contenido{
+.paso1{
     border: 1px solid lightgray;
     border-radius: 10px;
     box-shadow: 0 0 20px gray;
     height: 400px;
-    width: 50%!important;
+}
+
+.paso2{
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    box-shadow: 0 0 20px gray;
+    height: 400px;
 }
 
 .opciones{
@@ -72,4 +78,8 @@
 
 input::placeholder{
     text-align: center;
+}
+
+.d-none{
+    display: none;
 }

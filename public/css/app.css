@@ -6,6 +6,8 @@
 .footer{
     background-color: black;
     width: 100%;
+    position: fixed;
+    bottom: 0;
 }
 
 .logofooter{
@@ -43,15 +45,15 @@
 .paso1{
     border: 1px solid lightgray;
     border-radius: 10px;
-    box-shadow: 0 0 20px gray;
-    height: 400px;
+    box-shadow: 0 0 40px lightgray;
+    height: auto;
 }
 
 .paso2{
     border: 1px solid lightgray;
     border-radius: 10px;
-    box-shadow: 0 0 20px gray;
-    height: 400px;
+    box-shadow: 0 0 20px lightgray;
+    height: auto;
 }
 
 .opciones{
@@ -72,8 +74,9 @@
 
 .input{
     width: 40%;
-    border: 1px solid lightgray;
+    border: 1px solid #BCBCBC;
     border-radius: 5px;
+    padding: 10px;
 }
 
 input::placeholder{
@@ -82,4 +85,88 @@ input::placeholder{
 
 .d-none{
     display: none;
+}
+
+.form-check{
+    border: 1px solid #BCBCBC;
+    width: auto;
+    padding: 5px;
+    margin: auto;
+    width: 40%;
+    border-radius: 50px;
+}
+
+.form-check:hover{
+    box-shadow: 0 0 5px gray;
+}
+
+
+.form-check label{
+    cursor: pointer;
+    width: 100%;
+}
+
+.check{
+    float: left;
+    margin-top: 5px;
+}
+
+.form-check label input{
+   visibility: hidden;
+}
+
+.checkmark{
+    border: 1px solid #40ACDF;
+    color: #40ACDF;
+}
+
+.btn{
+    background-color: #40ACDF!important;
+    color: white!important;
+    border-radius: 50px!important;
+    width: 40%;
+    padding: 40px;
+}
+
+.btn span{
+    float: left!important;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 4rem;
+    margin-top: 0.2rem;
+}
+
+.btn i{
+    float: right;
+    margin-right: 5rem;
+    font-size: 1.8rem;
+    margin-top: 0.3rem;
+}
+
+.btn:hover .arrow{
+    margin-right: 50px!important;
+    transition: all 0.5s!important;
+}
+.btn:hover{
+    box-shadow: 0 0 5px gray;
+}
+
+textarea{
+    outline: #40ACDF!important;
+    resize: none!important;
+    overflow: hidden!important;
+    width: 35%;
+    border-radius: 5px;
+}
+
+textarea::placeholder{
+    padding: 10px;
+}
+/*.form-check label input:checked{
+    visibility: visible;
+}*/
+
+.form-check-inline label{
+    margin-right: 1rem;
+    font-size: 16px;
 }

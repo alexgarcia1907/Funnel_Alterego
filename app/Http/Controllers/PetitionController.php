@@ -21,8 +21,11 @@ class PetitionController extends Controller
 
         $peticion = new Petition;
         $peticion->nombre = $info["nombre"];
-        $servicio = implode(', ', $info["servicio"]);
-        $peticion->servicio = $servicio;
+        if ($info["servicio"] != null) {
+            $servicio = implode(', ', $info["servicio"]);
+            $peticion->servicio = $servicio;
+        }
+        
         $peticion->detalles = $info["detalles"];
 
         if ($info["mensualidad"] != null) {
@@ -37,7 +40,5 @@ class PetitionController extends Controller
 
         dd($info);
         return view('pas2');
-
-        
     }
 }

@@ -21,6 +21,6 @@
                 <input type="checkbox" value="Si" name="motorreserva[0]" id="">Si
                 <input type="checkbox" value="No" name="motorreserva[1]" id="">No
             </div>
-                @include('pasos.dejaremail') 
+                @include('pasos.dejaremail')
 
             <button type="submit" class="btn js-btnpaso1 mb-5 mt-4"><span>{{ __('app.text-btn-enviar') }}</span><i class="fa fa-envelope"></i></button>

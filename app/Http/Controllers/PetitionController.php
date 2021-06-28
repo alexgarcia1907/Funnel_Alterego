@@ -38,7 +38,6 @@ class PetitionController extends Controller
         
         $peticion->save();
 
-        dd($info);
         return view('pas2');
     }
 }

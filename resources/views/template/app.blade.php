@@ -27,17 +27,17 @@
             <div class="col text-center">
                     <img class="logofooter" src="/img/logo-alterego.png" alt="">  
                     <div class="info">
-                        <p class="contactosfooter"><i class="fas fa-map-marker-alt"></i> C/Sant Maurici 26 - 17740 Vilafant (Girona) <span class="marginsfooter"><i class="fas fa-envelope"></i>info@alteregoweb.com</span><i class="fas fa-phone"></i> +34 872 98 93 92</p>
+                        <p class="contactosfooter"><i class="fas fa-map-marker-alt"></i> C/Sant Maurici 26 - 17740 Vilafant (Girona) <span class="marginsfooter"><i class="fas fa-envelope"></i> <a href="mailto:info@alteregoweb.com" class="text-white text-decoration-none"> info@alteregoweb.com</a> </span><i class="fas fa-phone"></i><a href="tel:+34 872 98 93 92" class="text-white text-decoration-none"> +34 872 98 93 92</a></p>
                     </div> 
                     <div class="info">
-                        <p class="legalesfooter">Aviso legal<span class="marginsfooter">|</span>Politica de privacidad<span class="marginsfooter">|</span>Politica de cookies</p>
+                        <p class="legalesfooter"><a href="{{ __('app.url-aviso-legal') }}" class="text-white text-decoration-none">{{ __('app.txt-aviso-legal') }}</a><span class="marginsfooter">|</span><a href="{{ __('app.url-privacidad') }}" class="text-white text-decoration-none">Politica de privacidad</a><span class="marginsfooter">|</span><a href="{{ __('app.url-aviso-legal') }}" class="text-white text-decoration-none">{{ __('app.txt-cookies') }}</a></p>
                     </div>             
             </div>
         </div>
         <div class="row">
             <div class="col text-center">
                 <div>
-                    <p class="copyright">Copyright © Alteregoweb - Todos los derechos reservados</p>
+                    <p class="copyright">{{ __('app.txt-footer') }}</p>
                 </div>
             </div>
         </div>

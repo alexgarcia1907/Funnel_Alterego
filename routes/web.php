@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PetitionController;
+use Illuminate\Support\Facades\App;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,8 +15,16 @@ use App\Http\Controllers\PetitionController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/{locale?}', function ($locale = 'ca') {
+
+    if (in_array($locale, ['ca', 'es'])  ) { 
+        App::setLocale($locale);
+        return view('welcome');
+    }
+    else {
+        abort(404);
+    }
+    
 });
 
 Route::post('/paso2','App\Http\Controllers\PetitionController@store');

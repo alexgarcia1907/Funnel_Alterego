@@ -1,4 +1,4 @@
 <div class="mt-3">
-    <h6 class="inputform">Déjanos tu email para poder enviarte el presupuesto</h6>
-    <input class="input" type="email" name="email" id="email" placeholder="Introduce tu email...">
+    <h6 class="inputform">{{ __('app.email') }}</h6>
+    <input class="input" type="email" name="email" id="email" placeholder="{{ __('app.email-placeholder') }}">
 </div>

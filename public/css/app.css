@@ -6,13 +6,12 @@
 .footer{
     background-color: black;
     width: 100%;
-    position: fixed;
     bottom: 0;
 }
 
 .logofooter{
     padding-top: 30px;
-    width: 10%;
+    width: 15rem;
 }
 
 .info{
@@ -24,6 +23,10 @@
     font-size: .9rem;
 }
 
+.contactosfooter a:hover{
+    color: #40ACDF!important;
+}
+
 .marginsfooter{
     margin: 0 2rem;
 }
@@ -31,6 +34,10 @@
 .legalesfooter{
     font-size: .9rem;
     padding: 2rem 0;
+}
+
+.legalesfooter a:hover{
+    color: #40ACDF!important;
 }
 
 .listo{
@@ -143,10 +150,15 @@ input::placeholder{
     margin-top: 0.3rem;
 }
 
+.btn .arrow{
+    transition: all 0.5s!important;
+}
+
 .btn:hover .arrow{
     margin-right: 50px!important;
     transition: all 0.5s!important;
 }
+
 .btn:hover{
     box-shadow: 0 0 5px gray;
 }

@@ -21,9 +21,9 @@
                 <div class="form-check check7 mt-3">
                     <label for="js-check7"><input class="check" id="js-check7" type="checkbox" name="servicio[6]" value="Otros">{{ __('app.otros') }}</label>
                 </div>
-                <div class="mt-3">
+                <div class="mt-3 ">
                     <h6 class="inputform">{{ __('app.nombre') }}</h6>
-                    <input class="input" type="text" name="nombre" id="nombre" placeholder="{{ __('app.nombre-placeholder') }}">
+                    <input class="input form-input" type="text" name="nombre" id="nombre" placeholder="{{ __('app.nombre-placeholder') }}">
                 </div>
 
                 <button type="button" class="btn js-btnpaso1 mb-5 mt-4"><span>{{ __('app.text-btn-seguent') }}</span><i class="arrow fa fa-long-arrow-alt-right"></i></button>

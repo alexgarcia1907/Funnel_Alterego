@@ -11,7 +11,7 @@
 
 </head>
 <body>
-    <div class="container-fluid">
+    <div class="container">
         <div class="row">
             <div class="col text-center">
                 <img class="logofooter" src="/img/logo-alterego.png" alt="">  
@@ -26,9 +26,12 @@
         <div class="row listo">
             <div class="col text-center">
                     <img class="logofooter" src="/img/logo-alterego.png" alt="">  
-                    <div class="info">
-                        <p class="contactosfooter"><i class="fas fa-map-marker-alt"></i> C/Sant Maurici 26 - 17740 Vilafant (Girona) <span class="marginsfooter"><i class="fas fa-envelope"></i> <a href="mailto:info@alteregoweb.com" class="text-white text-decoration-none"> info@alteregoweb.com</a> </span><i class="fas fa-phone"></i><a href="tel:+34 872 98 93 92" class="text-white text-decoration-none"> +34 872 98 93 92</a></p>
+                    <div class="info info1">
+                        <p class="contactosfooter"><span><i class="fas fa-map-marker-alt"></i> C/Sant Maurici 26 - 17740 Vilafant (Girona) </span><span class="marginsfooter"><i class="fas fa-envelope"></i> <a href="mailto:info@alteregoweb.com" class="text-white text-decoration-none"> info@alteregoweb.com</a> </span><span><i class="fas fa-phone"></i><a href="tel:+34 872 98 93 92" class="text-white text-decoration-none"> +34 872 98 93 92</a></span></p>
                     </div> 
+                    <div class="info info2" style="display:none">
+                        <p class="contactosfooter"><p><i class="fas fa-map-marker-alt"></i> C/Sant Maurici 26 - 17740 Vilafant (Girona) </p><p><span class="marginsfooter"><i class="fas fa-envelope"></i> <a href="mailto:info@alteregoweb.com" class="text-white text-decoration-none"> info@alteregoweb.com</a> </span></p><p><i class="fas fa-phone"></i><a href="tel:+34 872 98 93 92" class="text-white text-decoration-none"> +34 872 98 93 92</a></p></p>
+                    </div>
                     <div class="info">
                         <p class="legalesfooter"><a href="{{ __('app.url-aviso-legal') }}" class="text-white text-decoration-none">{{ __('app.txt-aviso-legal') }}</a><span class="marginsfooter">|</span><a href="{{ __('app.url-privacidad') }}" class="text-white text-decoration-none">Politica de privacidad</a><span class="marginsfooter">|</span><a href="{{ __('app.url-aviso-legal') }}" class="text-white text-decoration-none">{{ __('app.txt-cookies') }}</a></p>
                     </div>             

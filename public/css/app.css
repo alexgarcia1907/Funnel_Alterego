@@ -101,6 +101,7 @@ input::placeholder{
     margin: auto;
     width: 40%;
     border-radius: 50px;
+    padding-left: 0!important;
 }
 
 .form-check:hover{
@@ -167,7 +168,7 @@ textarea{
     outline: #40ACDF!important;
     resize: none!important;
     overflow: hidden!important;
-    width: 35%;
+    width: 40%;
     border-radius: 5px;
 }
 
@@ -182,3 +183,55 @@ textarea::placeholder{
     margin-right: 1rem;
     font-size: 16px;
 }
+
+@media (max-width: 704px) {
+    .info1{
+        display: none;
+    }
+    .info2{
+        width: 100%;
+        display: inline-block!important;
+    }
+    .logofooter{
+        width: 10rem;
+    }
+  }
+
+  @media (max-width: 991px){
+        .btn i{
+            margin-right: 3rem!important;
+        }
+    }
+
+  @media (max-width: 768px){
+        .btn i{
+            margin-right: 1.7rem!important;
+        }
+        .btn span{
+            margin-left: 2rem;
+        }
+        .form-check{
+            width: 50%;
+        }
+        .form-input{
+            width: 50%;
+        }
+        #explicarmas{
+            width: 50%;
+        }
+
+    }
+    @media (max-width: 575px){
+        .btn{
+            width: 80%;
+        }
+        .form-check{
+            width: 80%;
+        }
+        .form-input{
+            width: 80%;
+        }
+        #explicarmas{
+            width: 80%;
+        }
+    }
